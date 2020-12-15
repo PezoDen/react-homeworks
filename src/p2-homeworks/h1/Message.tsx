@@ -1,9 +1,22 @@
 import React from "react";
+import classes from './Message.module.css'
 
-function Message() {
+type PropsType = {
+    avatar: string
+    name: string
+    message: string
+    time: string
+}
+
+function Message(props: PropsType) {
     return (
-        <div>
-
+        <div className={classes.body}>
+            <img src={props.avatar} className={classes.img}/>
+            <div className={classes.message}>
+                <span className={classes.name}>{props.name}</span>
+                <span>{props.message}</span>
+                <span className={classes.time}>{props.time}</span>
+            </div>
         </div>
     );
 }

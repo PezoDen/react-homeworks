@@ -1,7 +1,8 @@
 .someClass {
-
+background-color: green;
 }
 
 .error {
+    background-color: red;
     border: 1px solid red;
 }
