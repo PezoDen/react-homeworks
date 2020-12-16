@@ -8,6 +8,8 @@ function Header() {
           <nav>
             <NavLink to={"/"}>Home</NavLink>
             <NavLink to={"/pre-junior"}>PreJunior</NavLink>
+            <NavLink to={"/junior"}>Junior</NavLink>
+            <NavLink to={"/juniorplus"}>JuniorPlus</NavLink>
           </nav>
 
 
